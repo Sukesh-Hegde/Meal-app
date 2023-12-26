@@ -7,7 +7,9 @@ if (localStorage.getItem("favouritesList") == null) {
 // it fetches meals from api and return it
 async function fetchMealsFromApi(url,value) {
     const response=await fetch(`${url+value}`);
+    // console.log(response);
     const meals=await response.json();
+    // console.log(meals);
     return meals;
 }
 
@@ -165,6 +167,7 @@ function addRemoveToFavList(id) {
     }
     if (contain) {
         let number = arr.indexOf(id);
+        // console.log(number);
         arr.splice(number, 1);
         alert("your meal removed from your favourites list");
     } else {
