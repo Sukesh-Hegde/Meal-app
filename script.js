@@ -24,7 +24,7 @@ function showMealList() {
         let html = "";
         let meals = fetchMealsFromApi(url, inputValue);
         meals.then((data) => {
-            resultHeading.innerHTML = `<h5>Your Search Results for "${inputValue}"`;
+            resultHeading.innerHTML = `<h5 style="color: white;">Your Search Results for "${inputValue}"`;
             if (data.meals) {
                 data.meals.forEach((element) => {
                     let isFav=false;

@@ -5,6 +5,9 @@
 body {
     background-color: #f8f9fa;
     font-family: 'Poppins', sans-serif;
+    background-image: url('mealApp.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
     /* Additional CSS Styles */
