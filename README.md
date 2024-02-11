@@ -1,6 +1,7 @@
 # Meal-app
 
 This is a Meal App that allows users to search for different meals, view meal details, and add/remove meals to/from their favorites list.
+visit:  https://sukesh-hegde.github.io/Meal-app/
 
 ## Table of Contents
 
