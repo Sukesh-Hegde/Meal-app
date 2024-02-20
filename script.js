@@ -68,8 +68,8 @@ function showMealList() {
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-md-12 text-center">
-                                <span class="display-1 d-block">404</span>
-                                <div class="mb-4 lead">
+                                <span style="color: white;" class="display-1 d-block">404</span>
+                                <div style="color: white;" class="mb-4 lead">
                                     The meal you are looking for was not found.
                                 </div>
                             </div>
@@ -125,7 +125,7 @@ async function showFavMealList() {
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-12 text-center">
-                            <span class="display-1 d-block">404</span>
+                            <span style="color: white;" class="display-1 d-block">404</span>
                             <div class="mb-4 lead">
                                 No meal added in your favourites list.
                             </div>
